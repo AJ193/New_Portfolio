@@ -1,4 +1,3 @@
-/* eslint-disable max-len */
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import { ImPointRight } from 'react-icons/im';
@@ -18,7 +17,8 @@ function AboutCard() {
             <br />
             {' '}
             I am a certified Full-Stack Developer at Microverse,
-            An online platform that gives students from different parts of the world the opportunity to collaborate and complete their training as a developer.
+            An online platform that gives students from different parts of the world
+            the opportunity to collaborate and complete their training as a developer.
             I am passionate about building web applications
             and solving complex problems
             <br />
@@ -45,7 +45,7 @@ function AboutCard() {
           <p style={{ color: 'rgb(155 126 172)' }}>
             Strive to build things that make a difference!
           </p>
-          <footer className="blockquote-footer">Timmy&apos;s</footer>
+          <footer className="blockquote-footer">AJ&apos;s</footer>
         </blockquote>
       </Card.Body>
     </Card>
