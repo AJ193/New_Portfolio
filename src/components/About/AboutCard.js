@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import { ImPointRight } from 'react-icons/im';
@@ -16,8 +17,8 @@ function AboutCard() {
             <span className="purple"> Pakistan.</span>
             <br />
             {' '}
-            I am Alumni from Microverse and after graduating from
-            Microverse as a full-stack developer,
+            I am a certified Full-Stack Developer at Microverse,
+            An online platform that gives students from different parts of the world the opportunity to collaborate and complete their training as a developer.
             I am passionate about building web applications
             and solving complex problems
             <br />
