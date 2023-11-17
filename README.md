@@ -145,7 +145,7 @@ To run tests, run the following command:
 
 - GitHub: [@AJ](https://github.com/AJ193)
 - Twitter: [@AJ](https://twitter.com/GhulamShabbir59)
-- LinkedIn: [@AJ](https://www.linkedin.com/in/ghulam-shabbir-225264247/)
+- LinkedIn: [@AJ](https://www.linkedin.com/in/ghulam-shabbir-aj/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
