@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 import { AiOutlineDownload } from 'react-icons/ai';
 import Particle from '../Particle';
 
-const pdf1Url = 'https://docs.google.com/document/d/15tOn6rGB3mA5WRo_hq_o3UyM_3uJDiQycMArem5ytaQ/edit?pli=1';
+const pdf1Url = 'https://docs.google.com/document/d/15tOn6rGB3mA5WRo_hq_o3UyM_3uJDiQycMArem5ytaQ/edit?usp=sharing';
 
 function ResumeNew() {
   return (
