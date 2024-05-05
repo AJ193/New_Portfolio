@@ -1,13 +1,15 @@
+/* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable jsx-a11y/control-has-associated-label */
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Tilt from 'react-parallax-tilt';
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-} from 'react-icons/ai';
+import { AiFillGithub, AiOutlineTwitter } from 'react-icons/ai';
 import { FaLinkedinIn } from 'react-icons/fa';
 import myImg from '../../Assets/Projects/avatar.svg';
+import ProjectCard from '../Projects/ProjectCards';
+import Appointment from '../../Assets/img for project -1.PNG';
+import spacetravelers from '../../Assets/second-img.PNG';
+import worldweatherapp from '../../Assets/Screenshot (75).png';
 
 function Home2() {
   return (
@@ -23,7 +25,7 @@ function Home2() {
               MYSELF
             </h1>
             <p className="home-about-body">
-              I&apos;m Ghulam Shabbir, a Full Stack Web Developer currently enrolled in Microverse.
+              I&apos;m Ghulam Shabbir, a Full Stack Web Developer Certified from Microverse.
               I can help you build a product, feature, or website.
               Take a look at some of my work and experience!
               If you like what you see and have a project you need coded,
@@ -64,6 +66,55 @@ function Home2() {
                 <b className="purple"> React.js</b>
               </i>
             </p>
+
+            {/* Project Showcase Section */}
+            <Container fluid className="project-showcase-section">
+              <Container>
+                <Row>
+                  <Col md={12}>
+                    <h2 style={{ fontSize: '3em' }} className="">
+                      PORTFOLIO
+                      <span className="purple">
+                        {' '}
+                        SHOWCASE
+                      </span>
+                    </h2>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col md={2.5}>
+                    <ProjectCard
+                      imgPath={Appointment}
+                      isBlog={false}
+                      title="Book an Car Rental"
+                      description="The collaborative Kanban board project is designed to foster teamwork and enhance communication within a group or organization. It allows team members to easily collaborate on tasks, share updates, and delegate responsibilities in real time. By providing a centralized platform where team members can contribute, discuss, and coordinate their work, the collaborative Kanban board promotes synergy, productivity, and effective project management."
+                      ghLink="https://github.com/AJ193/Final_Capstone_Front_End"
+                      demoLink="https://car-rentals-teal.vercel.app/"
+                    />
+                  </Col>
+                  <Col md={2.5}>
+                    <ProjectCard
+                      imgPath={spacetravelers}
+                      isBlog={false}
+                      title="Space Travelers"
+                      description="The Space Travellers will allow users to book rockets and join selected space missions."
+                      ghLink="https://github.com/AJ193/Space-Travelers"
+                      demoLink="https://space-travelers-1204.onrender.com/"
+                    />
+                  </Col>
+                  <Col md={2.5}>
+                    <ProjectCard
+                      imgPath={worldweatherapp}
+                      isBlog={false}
+                      title="React-capstone-project-Metrics-webapp"
+                      description="This is an app that lets you view the current weather around the world. And a detailed minimum and maximum temperature of the last week."
+                      ghLink="https://github.com/AJ193/React-Capstone"
+                      demoLink="https://maps-react.onrender.com/"
+                    />
+                  </Col>
+                </Row>
+              </Container>
+            </Container>
 
             {/* Contact Form */}
             <p className="contact">Contact Me</p>
